@@ -1,0 +1,204 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+/* Common Css End */
+/* Login Form Start */
+#Login-Form{
+    display: flex;    
+}
+/* .design{
+    position: absolute;
+} */
+.top-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 35%;
+    pointer-events: none;
+}
+.bottom-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 27%;
+    height: 22%;
+    pointer-events: none;
+}
+
+.Form-box{
+    width: 50%;
+    padding: 185px 159px;
+    position: relative;
+}
+.Form-Box-Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Form-Box-Col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logo img{
+    pointer-events: none;
+}
+.tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.tittle h1{
+    color: #444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+.tittle p{
+    color: #878484;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.tittle p a{
+    color: #1BA584;
+    margin-left: 5px;
+}
+.inputbox label{
+    display: block;
+    color: #444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.inputbox label span{
+    color: #ff0000;
+}
+.inputbox input{
+    padding: 15px 21px 15px 30px;
+    border-radius: 25px;
+    border: 1px solid #D2CECE;
+    outline: none;
+    width: 100%;
+}
+.inputbox input::placeholder{
+    color: #A7A1A1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.terms{
+    display: flex;
+    gap: 5px;
+}
+.terms p{
+    color: #444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+.form button{
+    width: 400px;
+    padding: 10px 78px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: rgba(190, 220, 124, 0.99) 1px solid;
+    border-radius: 25px;
+    color: #FFF;
+    background: rgba(68, 168, 51, 0.828);
+    transition: all linear 0.3s;
+}
+.form button:hover{
+    background: transparent; 
+    border-color: #1BA584;
+    color: #444;
+}
+.form .wrapper span{
+    display: block;
+    color: #444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    width: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.form .wrapper span::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    height: 1px;
+    width: 170px;
+    background: #444;
+}
+.form .wrapper span::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -180px;
+    height: 1px;
+    width: 170px;
+    background: #444;
+}
+.icon-box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 12px;
+}
+.icon-box i:first-child img{
+    width: 23.294px;
+    height: 23.294px;
+}
+.icon-box i:last-child img{
+    width: 18.926px;
+    height: 23.294px;
+}
+.icon-box i{
+    width: 56.941px;
+    height: 56.941px;
+    padding: 16.941px 17.941px;
+    background: #000;
+    border-radius: 12.941px;
+    background: transparent;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+
+.Img-box{
+    width: 50%;
+}
+.Img-box img{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+/* Login Form End */
